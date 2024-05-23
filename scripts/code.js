@@ -15,11 +15,16 @@ multiply(7 , 7)
 //Create a function called tableOfFive which accepts a single parameter. Return the parameter multiplied by five to a variable, and log this variable.
 
 function tableOfFive(numb){
-    let output = numb * 5
+
+    let output = numb * 5 
+
     console.log(output);
+
+    return numb * 5 
 
 }
 tableOfFive(2)
 tableOfFive(9)
 tableOfFive(8)
 tableOfFive(4)
+tableOfFive(1)
